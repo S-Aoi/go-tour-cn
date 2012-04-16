@@ -27,7 +27,7 @@ import (
         _ "github.com/zhanming/go-tour-cn/wc"
 )
 
-const basePkg = "gihub.com/zhanming/go-tour-cn/"
+const basePkg = "github.com/zhanming/go-tour-cn/"
 
 var (
         httpListen = flag.String("http", "127.0.0.1:3999", "host:port to listen on")
