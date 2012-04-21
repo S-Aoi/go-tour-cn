@@ -10,4 +10,10 @@ http://golang.org/doc/contribute.html
 您可以直接访问<http://gotour.qizhanming.com>(架设在Google Appengine之上)  
 感谢Mikespook<http://www.mikespook.com>，本项目参考<http://bitbucket.org/mikespook/go-tour-zh/>
 
+您可以直接安装到本地进行阅读  
+前提：已经安装go和git
+    go get github.com/zhanming/go-tour-cn/gotour.cn
+更改目录到$GOPATH/bin下执行
+    ./gotour.cn
+
 # Welcome!
