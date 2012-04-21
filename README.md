@@ -12,8 +12,12 @@ http://golang.org/doc/contribute.html
 
 您可以直接安装到本地进行阅读  
 前提：已经安装go和git
-    go get github.com/zhanming/go-tour-cn/gotour.cn
+```CLI
+$ go get github.com/zhanming/go-tour-cn/gotour.cn
+```
 更改目录到$GOPATH/bin下执行
-    ./gotour.cn
+```CLI
+$ ./gotour.cn
+```
 
 # Welcome!
