@@ -3,4 +3,4 @@
 rm -rv ./static
 cp -rv ../static ./
 echo "var tourMode = \"appengine\";" >> ./static/mode.js
-~/bin/google_appengine/appcfg.py update ./
+~/bin/google_appengine/appcfg.py --no_cookies update ./
