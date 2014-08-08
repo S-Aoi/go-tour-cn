@@ -2080,7 +2080,7 @@ type Image interface {
 	<p>
 	(参阅<a target="_blank" href="http://golang.org/pkg/image/#Image">文档</a>了解全部信息。)
 	<p>
-	同样，<code>Color</code> 和 <code>ColorModel</code> 也是接口，但是通常因为直接使用预定义的实现 <code>image.RGBAColor</code> 和 <code>image.RGBAColorModel</code> 而忽略它们。
+	同样，<code>color.Color</code> 和 <code>color.Model</code> 也是接口，但是通常因为直接使用预定义的实现 <code>color.RGBA</code> 和 <code>color.RGBAModel</code> 而忽略它们。
 <hr/>
 	<h2>Images</h2>
 	<p>
@@ -2233,9 +2233,9 @@ func main() {
         <p>
         <code>Bounds</code> 应当返回一个 <code>image.Rectangle</code>，例如 <code>image.Rect(0, 0, w, h)</code>。
         <p>
-        <code>ColorModel</code> 应当返回 <code>image.RGBAColorModel</code>。
+        <code>ColorModel</code> 应当返回 <code>color.RGBAModel</code>。
         <p>
-	<code>At</code> 应当返回一个颜色；在这个例子里，在最后一个图片生成器的值 <code>v</code> 匹配 <code>color.RGBAColor{v, v, 255, 255}</code>。
+	<code>At</code> 应当返回一个颜色；在这个例子里，在最后一个图片生成器的值 <code>v</code> 匹配 <code>color.RGBA{v, v, 255, 255}</code>。
 <hr/>
 	<h2>Exercise: Images</h2>
 	<p>
